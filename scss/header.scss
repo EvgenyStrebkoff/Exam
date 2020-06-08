@@ -1,0 +1,232 @@
+.header {
+    width: $width;
+    height: 1024px;
+    background-image: url(../img/header-bg.png);
+}
+
+.header-menu-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    height: 60px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 219px;
+}
+
+.header-logo:hover {
+    color: #c7b299;
+}
+
+.header-logo-svg {
+    fill: currentColor;
+}
+
+.header-logo-txt {
+    font-family: 'raleway', 'arial', sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: right;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.header-menu {
+    margin-right: 63px;
+}
+
+.header-menu-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.header-menu-item {
+    margin-right: 30px;
+}
+
+.header-menu-item:last-child {
+    margin-right: 0px;
+}
+
+.header-menu-item:hover {
+    color: #c7b299;
+}
+
+.header-cart-btn {
+    background-color: transparent;
+    height: 24px;
+    border: none;
+    padding: 0;
+    color: #fff;
+    margin-right: 28px;
+}
+
+.header-cart-svg {
+    fill: currentColor;
+}
+
+.header-cart-btn:hover {
+    color: #c7b299;
+}
+
+.header-search-form {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.header-search-btn-label {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.header-search-btn-svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+}
+
+.header-search-btn-svg:hover {
+    fill: #c7b299;
+}
+
+.header-search-btn-input {
+    width: 0;
+    height: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    position: absolute;
+    top: 30px;
+    left: -125px;
+}
+
+.header-search-btn-input:focus {
+    width: 150px;
+    min-height: 24px;
+    transition: width 1s ease;
+    border: 2px solid #fff;
+    line-height: 24px;
+    color: #fff;
+}
+
+.header-search-btn-input:focus ~ .head-search-btn-label>.head-search-btn-svg {
+    fill: #c7b299;
+}
+
+.carusel-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 924px;
+}
+
+.carusel-block-wrp {
+    margin: 285px 150px 327px;
+    width: 1620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carusel-arrow-r {
+    transform: rotate(180deg);
+}
+
+.carusel-block-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.carusel-content-unique {
+    display: block;
+    font-family: 'raleway', 'arial', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    padding-bottom: 14px;
+}
+
+.carusel-content-portfolio {
+    display: block;
+    font-family: 'raleway', 'arial', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.carusel-content-txt {
+    display: block;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+    width: 562px;
+    padding-bottom: 50px;
+}
+
+.carusel-content-btn {
+    margin: 0 auto;
+    display: block;
+    line-height: 53px;
+    width: 170px;
+    height: 53px;
+    border-radius: 3px;
+    box-shadow: inset 0px -3px 0 0 #736357;
+    background-color: #998675;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.carusel-content-btn-name {
+    font-family: 'raleway', 'helvetica', 'arial', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.carusel-block-pagination {
+    display: flex;
+    width: 98px;
+    height: 11px;
+    justify-content: space-between;
+}
+
+.carusel-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.carusel-pagination-item:hover {
+    transform: scale(1.2);
+    border: 2px solid #fff;
+    background-color: transparent;
+}
