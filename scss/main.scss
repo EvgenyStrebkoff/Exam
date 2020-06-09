@@ -80,7 +80,7 @@
     font-style: normal;
     font-size: 30px;
     color: #555;
-    margin: 0 0 24px;
+    margin: 83px 0 24px;
     text-align: center;
 }
 
@@ -362,6 +362,10 @@
 
 .video {
     position: relative;
+}
+
+.video-file {
+    filter: brightness(50%);
 }
 
 .video-block {

@@ -114,10 +114,14 @@ body {
 .header-menu-item {
   margin-right: 30px; }
 
+.header-menu-item-link {
+  text-decoration: none;
+  color: #fff; }
+
 .header-menu-item:last-child {
   margin-right: 0px; }
 
-.header-menu-item:hover {
+.header-menu-item-link:hover {
   color: #c7b299; }
 
 .header-cart-btn {
@@ -402,7 +406,7 @@ body {
   font-style: normal;
   font-size: 30px;
   color: #555;
-  margin: 0 0 24px;
+  margin: 83px 0 24px;
   text-align: center; }
 
 .screenshots-txt {
@@ -683,6 +687,10 @@ body {
 
 .video {
   position: relative; }
+
+.video-file {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%); }
 
 .video-block {
   width: 552px;

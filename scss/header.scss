@@ -58,11 +58,16 @@
     margin-right: 30px;
 }
 
+.header-menu-item-link {
+    text-decoration: none;
+    color: #fff;
+}
+
 .header-menu-item:last-child {
     margin-right: 0px;
 }
 
-.header-menu-item:hover {
+.header-menu-item-link:hover {
     color: #c7b299;
 }
 
