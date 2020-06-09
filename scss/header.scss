@@ -146,8 +146,20 @@
     align-items: center;
 }
 
-.carusel-arrow-r {
-    transform: rotate(180deg);
+.carusel-arrow-l{
+    fill: #fff;
+}
+
+.carusel-arrow-l:hover{
+    fill: #c7b299;
+}
+
+.carusel-arrow-r{
+    fill: #fff;
+}
+
+.carusel-arrow-r:hover{
+    fill: #c7b299;
 }
 
 .carusel-block-content {
@@ -201,6 +213,14 @@
     text-align: center;
     color: #fff;
 }
+
+.carusel-content-btn:hover{
+    background-color: #fff;
+    color: #998675;
+    border: 1px solid #998675;
+    box-sizing: border-box;
+}
+
 
 .carusel-content-btn-name {
     font-family: 'raleway', 'helvetica', 'arial', sans-serif;

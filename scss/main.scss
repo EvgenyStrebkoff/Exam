@@ -155,6 +155,13 @@
     font-style: normal;
 }
 
+.purchase-btn:hover {
+    background-color: #fff;
+    color: #998675;
+    border: 1px solid #998675;
+    box-sizing: border-box;
+}
+
 .latest {
     display: flex;
     flex-direction: column;
@@ -240,6 +247,7 @@
     margin: 0 30px 30px 0;
     background-position: top;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .latest-block-item {
@@ -277,4 +285,147 @@
     font-style: normal;
     color: #d1d1d1;
     margin: 14px 0 0;
+}
+
+.latest-item-btn {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 106px;
+    left: 144px;
+    color: #fff;
+    fill: currentColor;
+}
+
+.latest-item-btn:nth-of-type(2) {
+    left: 198px;
+}
+
+.latest-block:hover .latest-block-img {
+    filter: brightness(30%);
+}
+
+.latest-block:hover .latest-block-item {
+    background-color: #362f2d;
+}
+
+.latest-block:hover .latest-block-item:before {
+    border-bottom: 10px solid #362f2d;
+}
+
+.latest-block:hover .latest-item-btn {
+    display: block;
+}
+
+.latest-block:hover .latest-item-btn:hover {
+    color: #c7b299;
+}
+
+.latest-block:hover .latest-block-name {
+    color: #fff;
+}
+
+.latest-block:hover .latest-block-txt {
+    color: #c7b299;
+}
+
+.latest-btn {
+    margin: 0 0 80px;
+    display: block;
+    line-height: 53px;
+    width: 170px;
+    height: 53px;
+    border-radius: 3px;
+    box-shadow: inset 0px -3px 0 0 #736357;
+    background-color: #998675;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.latest-btn-txt {
+    font-family: 'raleway', 'helvetica', 'arial', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.latest-btn:hover {
+    background-color: #fff;
+    color: #998675;
+    border: 1px solid #998675;
+    box-sizing: border-box;
+}
+
+.video {
+    position: relative;
+}
+
+.video-block {
+    width: 552px;
+    position: absolute;
+    top: 350px;
+    left: 685px;
+}
+
+.video-block-btn {
+    margin: 0 auto 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    width: 100px;
+}
+
+.video-block-btn:hover .video-block-btn-svg {
+    fill: #c7b299;
+}
+
+.video-block-btn:active .video-block {
+    /*Я почитал статьи и насколько понял смогу убрать блок только с помощью js.*/
+}
+
+.video-block-btn-svg {
+    margin: auto;
+    fill: #fff;
+}
+
+.video-block-name {
+    display: block;
+    font-family: 'raleway', 'arial', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 29px;
+}
+
+.video-block-txt {
+    display: block;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.75;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 40px;
+}
+
+.video-block-time {
+    display: block;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.71;
+    text-align: center;
+    color: #c7b299;
 }
