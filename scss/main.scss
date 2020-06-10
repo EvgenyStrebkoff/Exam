@@ -433,3 +433,121 @@
     text-align: center;
     color: #c7b299;
 }
+
+.excellent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 700px;
+    background-image: url(../img/iPhone-in-hand.png);
+    background-repeat: no-repeat;
+    background-position: 420px bottom;
+}
+
+.excellent-content {
+    display: block;
+    margin: 195px 388px 0 0;
+    width: 660px;
+}
+
+.excellent-name {
+    font-family: 'raleway', 'arial', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    color: #555;
+}
+
+.excellent-txt {
+    margin: 40px 0 45px 0;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.75;
+    color: #8c8c8c;
+}
+
+.excellent-list {
+    margin: 0 0 0 50px;
+    padding: 0 0 0 40px;
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #8c8c8c;
+    list-style-type: none;
+}
+
+.excellent-lixt-item {
+    position: relative;
+}
+
+.excellent-lixt-item:before {
+    position: absolute;
+    top: 6px;
+    left: -40px;
+    font-family: 'fontello';
+    content: "\f105";
+    width: 21px;
+    height: 21px;
+    background-color: #c7b299;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+}
+
+.counts {
+    background-image: linear-gradient(to right, #211b19, #4e3427);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.counts-item {
+    margin: 70px 100px 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counts-item:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+    align-self: flex-end;
+}
+
+.counts-item-svg {
+    fill: #c7b299;
+    margin: 0 auto 30px;
+}
+
+.counts-item-name {
+    font-family: 'montserrat', 'arial', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 0.75;
+    text-align: center;
+    color: #fff;
+}
+
+.counts-item-txt {
+    font-family: 'montserrat', 'arial', sans-serif;
+    margin: 21px 0 30px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.43;
+    text-align: center;
+    color: #c7b299;
+}
