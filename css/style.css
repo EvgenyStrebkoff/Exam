@@ -1196,9 +1196,10 @@ body {
 .brands-link {
   margin: 0 90px 0 0; }
 
-.brands-link:last-child {
-  margin: 0; }
-
 .brands-link:hover {
-  -webkit-filter: drop-shadow();
-          filter: drop-shadow(); }
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease; }
