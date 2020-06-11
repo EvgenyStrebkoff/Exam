@@ -113,6 +113,18 @@
 }
 
 @font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?31123259');
   src: url('../fonts/fontello.eot?31123259#iefix') format('embedded-opentype'),
