@@ -24,6 +24,10 @@
     color: #c7b299;
 }
 
+.header-logo:active {
+    color: #fff;
+}
+
 .header-logo-svg {
     fill: currentColor;
 }
@@ -71,6 +75,10 @@
     color: #c7b299;
 }
 
+.header-menu-item-link:active {
+    color: #fff;
+}
+
 .header-cart-btn {
     background-color: transparent;
     height: 24px;
@@ -78,6 +86,7 @@
     padding: 0;
     color: #fff;
     margin-right: 28px;
+    outline: none;
 }
 
 .header-cart-svg {
@@ -86,6 +95,10 @@
 
 .header-cart-btn:hover {
     color: #c7b299;
+}
+
+.header-cart-btn:active {
+    color: #fff;
 }
 
 .header-search-form {
@@ -110,6 +123,10 @@
     fill: #c7b299;
 }
 
+.header-search-btn-svg:active {
+    fill: #fff;
+}
+
 .header-search-btn-input {
     width: 0;
     height: 0;
@@ -131,7 +148,7 @@
     color: #fff;
 }
 
-.header-search-btn-input:focus ~ .head-search-btn-label>.head-search-btn-svg {
+.header-search-btn-input:focus ~ .head-search-btn-label > .head-search-btn-svg {
     fill: #c7b299;
 }
 
@@ -151,20 +168,32 @@
     align-items: center;
 }
 
-.carusel-arrow-l{
+.carusel-arrow-l {
     fill: #fff;
 }
 
-.carusel-arrow-l:hover{
+.carusel-arrow-l:hover {
     fill: #c7b299;
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
 }
 
-.carusel-arrow-r{
+.carusel-arrow-l:active {
     fill: #fff;
 }
 
-.carusel-arrow-r:hover{
+.carusel-arrow-r {
+    fill: #fff;
+}
+
+.carusel-arrow-r:hover {
     fill: #c7b299;
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+.carusel-arrow-r:active {
+    fill: #fff;
 }
 
 .carusel-block-content {
@@ -219,13 +248,21 @@
     color: #fff;
 }
 
-.carusel-content-btn:hover{
+.carusel-content-btn:hover {
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #998675;
+    box-sizing: border-box;
+    box-shadow: inset 0px -3px 0 0 #555;
+}
+
+.carusel-content-btn:active {
     background-color: #fff;
     color: #998675;
     border: 1px solid #998675;
+    box-shadow: inset 0px -3px 0 0 #736357;
     box-sizing: border-box;
 }
-
 
 .carusel-content-btn-name {
     font-family: 'raleway', 'helvetica', 'arial', sans-serif;
@@ -252,6 +289,12 @@
 
 .carusel-pagination-item:hover {
     transform: scale(1.2);
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.carusel-pagination-item:active {
+    transform: scale(1.5);
     border: 2px solid #fff;
     background-color: transparent;
 }
