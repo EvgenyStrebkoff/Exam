@@ -158,6 +158,9 @@
 .header-menu {
   margin-right: 35px; }
 
+#menu-toggle {
+  display: none; }
+
 .header-menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1601,7 +1604,7 @@
         -ms-flex-align: center;
             align-items: center;
     position: absolute;
-    top: -17%;
+    top: -15px;
     left: 90%;
     width: 30px;
     height: 30px;
@@ -1699,10 +1702,10 @@
 
   .services-item {
     width: 46%;
-    margin: 2%; }
+    margin: 2% 2% 5% 2%; }
 
   .services-item:last-child {
-    margin: 2%; }
+    margin: 2% 2% 5% 2%; }
 
   .screenshots {
     display: none; }
@@ -1714,7 +1717,8 @@
     margin: 40px 0; }
 
   .latest-txt {
-    width: 100%; }
+    width: 96%;
+    padding: 0 2%; }
 
   .latest-menu {
     -ms-flex-wrap: wrap;
@@ -1763,7 +1767,7 @@
     display: none; }
 
   .excellent {
-    background-position: left bottom;
+    background-position: 2% bottom;
     background-size: 45%;
     height: auto;
     min-height: 0; }
