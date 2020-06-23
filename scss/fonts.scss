@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-extrabold.eot');
+    src: url('../fonts/raleway-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-extrabold.woff2') format('woff2'),
+         url('../fonts/raleway-extrabold.woff') format('woff'),
+         url('../fonts/raleway-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-light.eot');
+    src: url('../fonts/raleway-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light.woff2') format('woff2'),
+         url('../fonts/raleway-light.woff') format('woff'),
+         url('../fonts/raleway-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-medium.eot');
+    src: url('../fonts/raleway-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium.woff2') format('woff2'),
+         url('../fonts/raleway-medium.woff') format('woff'),
+         url('../fonts/raleway-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold.woff2') format('woff2'),
+         url('../fonts/raleway-semibold.woff') format('woff'),
+         url('../fonts/raleway-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-light.eot');
+    src: url('../fonts/montserrat-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-light.woff2') format('woff2'),
+         url('../fonts/montserrat-light.woff') format('woff'),
+         url('../fonts/montserrat-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-extralight.eot');
+    src: url('../fonts/montserrat-extralight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-extralight.woff2') format('woff2'),
+         url('../fonts/montserrat-extralight.woff') format('woff'),
+         url('../fonts/montserrat-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-regular.eot');
+    src: url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular.woff2') format('woff2'),
+         url('../fonts/montserrat-regular.woff') format('woff'),
+         url('../fonts/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?31123259');
+  src: url('../fonts/fontello.eot?31123259#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?31123259') format('woff2'),
+       url('../fonts/fontello.woff?31123259') format('woff'),
+       url('../fonts/fontello.ttf?31123259') format('truetype'),
+       url('../fonts/fontello.svg?31123259#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?31123259#fontello') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-angle-right:before { content: '\f105'; } /* '' */
