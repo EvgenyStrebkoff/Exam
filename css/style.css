@@ -1572,7 +1572,8 @@
 
   .header {
     width: 100%;
-    height: auto; }
+    height: auto;
+    background-position: center; }
 
   .header-menu-block {
     padding: 40px 10px;
@@ -1583,7 +1584,7 @@
   .header-logo {
     margin: 0; }
 
-  .header-menu {
+  .mobile-menu {
     display: none; }
 
   .services {
@@ -1642,6 +1643,13 @@
   .latest-block-txt {
     width: 100%; }
 
+  .latest-item-btn {
+    top: 27%;
+    left: 45%; }
+
+  .latest-item-btn:nth-of-type(2) {
+    left: 55%; }
+
   .video {
     display: none; }
 
@@ -1659,7 +1667,7 @@
 
   .excellent-name {
     display: block;
-    width: 94%;
+    width: 85%;
     margin: 0 auto; }
 
   .excellent-txt {
@@ -1709,12 +1717,25 @@
   .footer-top {
     display: none; }
 
+  .footer-bottom {
+    padding: 8% 2%; }
+
   .footer-bottom-list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    padding: 0;
+    margin: 0; }
+
+  .footer-bottom-list-item {
+    margin: 10px 0; }
 
   .footer-bottom-list-item:nth-child(4) {
-    margin-right: 0; } }
+    margin: 10px 0;
+    padding: 0 10px; }
+
+  .footer-bottom-list-item:last-child {
+    padding: 0 10px;
+    border-right: none; } }
