@@ -1,5 +1,5 @@
 $width: 1920px;
-body{
+.container{
     width: $width;
     margin: 0 auto;
 }
@@ -9,3 +9,4 @@ body{
 @import 'header.scss';
 @import 'main.scss';
 @import 'footer.scss';
+@import 'mobile.scss';
